@@ -1,5 +1,5 @@
 {
-  "name": "cldr-data",
+  "name": "@fenetre/cldr-data",
   "version": "36.0.0",
   "keywords": [
     "unicode",
@@ -7,6 +7,9 @@
     "JSON",
     "data"
   ],
+  "publishConfig": {
+    "registry": "https://pkgs.dev.azure.com/FenetreBV/34ec6cde-b79b-4ced-ae99-4988858e0c1c/_packaging/Fenetre.SiliconCore/npm/registry/"
+  },
   "description": "Npm module for Unicode CLDR JSON data",
   "homepage": "https://github.com/rxaviers/cldr-data-npm",
   "repository": {
@@ -36,7 +39,7 @@
     "test": "grunt && node test/index.js"
   },
   "dependencies": {
-    "cldr-data-downloader": "0.3.x",
+    "cldr-data-downloader": "0.3.5",
     "glob": "5.x.x"
   },
   "devDependencies": {
