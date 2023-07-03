@@ -1,6 +1,7 @@
 node_modules/
+*.tgz
 
-# CLDR downloaded files.
+# CLDR files
 .ignored-*
 availableLocales.json
 defaultContent.json
@@ -10,3 +11,6 @@ scriptMetadata.json
 segments/
 state.json
 supplemental/
+bower.json
+coverageLevels.json
+
