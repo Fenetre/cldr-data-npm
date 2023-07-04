@@ -15,4 +15,4 @@ Combines:
 
 ## Credits
 
-[Originally based on ](https://github.com/rxaviers/cldr-data-npm)
+Originally based on [cldr-data-npm](https://github.com/rxaviers/cldr-data-npm).
