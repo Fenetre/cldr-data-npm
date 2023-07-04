@@ -14,7 +14,7 @@
   "homepage": "https://github.com/Fenetre/cldr-data-npm",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Fenetre/cldr-data-npm"
+    "url": "git://github.com/Fenetre/cldr-data-npm.git"
   },
   "license": "MIT",
   "author": {
