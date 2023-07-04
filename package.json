@@ -1,6 +1,6 @@
 {
   "name": "@fenetre/cldr-data",
-  "version": "36.0.2",
+  "version": "43.1.0",
   "keywords": [
     "unicode",
     "CLDR",
@@ -11,41 +11,26 @@
     "registry": "https://pkgs.dev.azure.com/FenetreBV/34ec6cde-b79b-4ced-ae99-4988858e0c1c/_packaging/Fenetre.SiliconCore/npm/registry/"
   },
   "description": "Npm module for Unicode CLDR JSON data",
-  "homepage": "https://github.com/rxaviers/cldr-data-npm",
+  "homepage": "https://github.com/Fenetre/cldr-data-npm",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rxaviers/cldr-data-npm.git"
+    "url": "git://github.com/Fenetre/cldr-data-npm"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/rxaviers/cldr-data-npm/blob/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "author": {
-    "name": "Rafael Xavier de Souza",
-    "email": "rxaviers@gmail.com",
-    "url": "http://rafael.xavier.blog.br"
+    "name": "Fênetre Online Solutions",
+    "email": "info@fenetre.nl",
+    "url": "https://www.fenetre.nl"
   },
-  "main": "index.js",
   "files": [
-    "DCO.md",
-    "index.js",
-    "install.js",
-    "urls.json"
+    "install.js"
   ],
   "scripts": {
-    "install": "node install.js",
-    "test": "grunt && node test/index.js"
+    "install": "node install.js"
   },
   "dependencies": {
-    "@fenetre/cldr-data-downloader": "0.3.5",
-    "glob": "5.x.x"
-  },
-  "devDependencies": {
-    "grunt": "0.4.x",
-    "grunt-contrib-jshint": "0.10.x",
-    "grunt-dco": "0.0.3",
-    "matchdep": "*"
+    "cldr-core": "43.1.0",
+    "cldr-dates-modern": "43.1.0",
+    "cldr-numbers-modern": "43.1.0"
   }
 }
